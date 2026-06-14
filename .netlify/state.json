@@ -1,0 +1,20 @@
+{
+	"geolocation": {
+		"data": {
+			"city": "Sātgāchia",
+			"country": {
+				"code": "IN",
+				"name": "India"
+			},
+			"subdivision": {
+				"code": "WB",
+				"name": "West Bengal"
+			},
+			"timezone": "Asia/Kolkata",
+			"latitude": 23.2715,
+			"longitude": 88.131,
+			"postalCode": "713422"
+		},
+		"timestamp": 1781446781288
+	}
+}
