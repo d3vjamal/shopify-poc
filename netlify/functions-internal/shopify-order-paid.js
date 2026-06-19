@@ -31,7 +31,7 @@ export default async (req, context) => {
         const shopifyOrder = JSON.parse(rawBody);
 
         console.log("=================== 🚀 INTERNAL TRIGGER CAPTURED ===================");
-        console.log(`Folder Path: netlify/functions-internal/`);
+        console.log(`Folder Path: netlify/function`, JSON.stringify(shopifyOrder, null, 2));
         console.log(`Order Reference: #${shopifyOrder.order_number}`);
         console.log(`Customer Contact: ${shopifyOrder.email}`);
         console.log(`Total Billing value: ${shopifyOrder.currency} ${shopifyOrder.total_price}`);
